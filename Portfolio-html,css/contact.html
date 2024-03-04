@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><span>Personal</span>Portfolio</a>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#" class="active">Contact</a></li>
+      </ul>
+    </header>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:examplemail@gmail.com">sm048314916@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="www.linkedin.com/in/sm0483">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="contact-form"
+      style="
+        width: 80%;
+        margin: auto;
+        font-family: Arial, sans-serif;
+        color: #f0f8ff;
+      "
+    >
+      <h2 style="font-size: 2.5em; text-align: center; color: #f0f8ff">
+        Contact Me
+      </h2>
+      <form
+        action="#"
+        method="post"
+        style="display: flex; flex-direction: column; align-items: center"
+      >
+        <label
+          for="email"
+          style="font-size: 1.2em; margin-top: 10px; color: #f0f8ff"
+          >Email:</label
+        >
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f0f8ff;
+          "
+        />
+
+        <label
+          for="message"
+          style="font-size: 1.2em; margin-top: 10px; color: #f0f8ff"
+          >Message:</label
+        >
+        <textarea
+          id="message"
+          name="message"
+          required
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f0f8ff;
+          "
+        ></textarea>
+
+        <input
+          type="submit"
+          value="Send"
+          style="
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            background-color: #5693c8;
+          "
+        />
+      </form>
+    </div>
+  </body>
+</html>
